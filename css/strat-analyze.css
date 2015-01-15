@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Landing Page Bootstrap Theme (http://startbootstrap.com)
+ * Start Bootstrap - Landing -he Bootstrap Theme (http://startbootstrap.com)
  * Code licensed under the Apache License v2.0.
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
@@ -31,8 +31,7 @@ h6 {
     padding-bottom: 100px;
     text-align: center;
     color: #f8f8f8;
-    background: url(../img/bground.jpg) no-repeat center center;
-    background-size: cover;
+
     min-height: 100%;
 }
 
@@ -203,7 +202,7 @@ p.copyright {
     font-weight: lighter;
 }
 .blue_header {
-    color: blue;
+    color: #428bca;
 }
 #main_wrapper {
     min-height:100%;
@@ -330,4 +329,32 @@ p.copyright {
 
 .modal-footer .btn-block + .btn-block {
   margin-left: 0;
+}
+
+.upload-width {
+  width: 65%;
+}
+.personal-info h3 {
+  text-align: center;
+}
+.user-photo {
+  width: 90%;
+  height: 90%;
+}
+.image-section {
+  width: 80%;
+  height: 80%;
+  border-style: inset;
+  box-shadow: 5px 5px 5px #888888;
+}
+.page-header {
+  color: #428bca;
+}
+
+/*THis is for the forex charts*/
+.bigicon {
+    font-size:25px;
+    padding-bottom:10px;
+    padding-top:10px;
+    color:#5CB85C;
 }

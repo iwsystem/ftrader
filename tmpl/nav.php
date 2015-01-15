@@ -50,7 +50,7 @@
                     <a href="forms.php"><i class="fa fa-database fa-fw"></i> Data Entry</a>
                 </li>
                 <li>
-                    <a href="history.php"><i class="fa fa-history fa-fw"></i> History</a>
+                    <a href="analysis-summary.php"><i class="fa fa-history fa-fw"></i> History</a>
                 </li>
             </ul>
         </div>
