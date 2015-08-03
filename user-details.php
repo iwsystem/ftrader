@@ -1,4 +1,5 @@
 <?php
+include_once('signon/session.php');
 include_once("pdo-connect.php");
 	$i_uID = $_SESSION["user_id"]; // This is the id of the user
 	try {

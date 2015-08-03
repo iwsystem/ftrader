@@ -10,7 +10,7 @@ include_once("signon/pdo-connect.php");
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Result of the analysis of data entered into the form">
     <meta name="author" content="Michael Ifeorah">
-    <title>Strategy Analyser - Result</title>
+    <title>Strategy Analyser - Summary</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- MetisMenu CSS -->

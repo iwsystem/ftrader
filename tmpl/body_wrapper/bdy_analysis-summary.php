@@ -21,6 +21,7 @@
                                 <tr>
                                     <th>Click to view Detail</th>
                                     <th>Date of Analysis</th>
+                                    <th>Last Updated</th>
                                     <th>Strategy Title</th>
                                     <th>Trade Year</th>
                                 </tr>
@@ -44,7 +45,7 @@
                                     foreach ($arr_History as $oHistory) {
                                         $i_historyID = $oHistory["id"]; // Assigning the id that will be passed to the detail script
                                         echo "<tr>";
-                                        echo "<td>" . "<a href='analysis-detail.php?history_id=$i_historyID'>". "Click here" . "</a>" . "</td>"."<td>". $oHistory["analysis_date"] . "</td>"."<td>" . $oHistory["strat_title"] ."</td>"."<td>" . $oHistory["trade_year"] . "</td>"; 
+                                        echo "<td>" . "<a href='analysis-detail.php?history_id=$i_historyID'>". "Click here" . "</a>" . "</td>"."<td>". $oHistory["analysis_date"] . "</td>"."<td>". $oHistory["last_update"] . "</td>"."<td>" . $oHistory["strat_title"] ."</td>"."<td>" . $oHistory["trade_year"] . "</td>"; 
                                         echo "</tr>";
                                     }
                                 }   catch(PDOException $e)  {

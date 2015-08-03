@@ -27,7 +27,7 @@
         $initialMonthlyCapital = $initCap;  // initial monthly capital which will be incremented each month
         $sumOfWins =0;  // initializing the sum of wins to zero
         $sumOfWinPercentage = 0;    // initializing the sum of the win percentage to zero
-        ?>
+?>
         <div id="page-wrapper">
             <div class="row">
                 <div class="col-lg-12">
@@ -99,6 +99,7 @@
                                 ?>
                                 <br>
                                 <div class="btn-group">
+                                    <button type="button" class="btn btn-danger" onclick="window.location.href='analysis-detail_edit.php?history_id=<?php echo $i_hisID ?>';"> Click here to edit this analysis</button>
                                     <button type="button" class="btn btn-primary" onclick="history.go(-1);">Click to return to analysis history</button>
                                     <button type="reset" class="btn btn-success" onclick="window.location.href='forms.php';"> Click here to make a new analysis</button>
                                 </div>

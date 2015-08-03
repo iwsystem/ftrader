@@ -40,7 +40,7 @@ session_start();
 			header("location:../home.php"); 
 		} else {
 			echo "Invalid Username or Password, if this continues, contact administrator<br>";
-			echo "You will be returned to login page in 5 seconds.<br> Redirecting ...";
+			echo "You will be returned to login page in 5 seconds OR Click the back button to return<br> Redirecting ...";
 			header("refresh:5; url=../index.php");
 		}
 		//	This condition makes sure that the user exists before the next queries will be evaluated

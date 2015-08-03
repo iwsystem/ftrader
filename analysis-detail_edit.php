@@ -9,7 +9,7 @@ include('signon/session.php');
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Trading Strategy Analysis Tool Data Entry Page, to fill out form to be analysed">
     <meta name="author" content="Michael Ifeorah">
-    <title>Strategy Analyser - Data Entry</title>
+    <title>Strategy Analyser - Update Entry</title>
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- MetisMenu CSS -->
@@ -75,7 +75,7 @@ include('signon/session.php');
         <!-- /.Line breaking -->
         <div><br></div>
         <!--  Page body -->
-        <?php include('tmpl/body_wrapper/bdy_forms.php');  ?>
+        <?php include('tmpl/body_wrapper/bdy_analysis-detail_edit.php');  ?>
         <!--  Footer -->
         <?php include('tmpl/footer.php');  ?>
     </div>
